@@ -1,0 +1,34 @@
+{
+  "name": "goit-js-hw-13-image-finder",
+  "version": "1.1.0",
+  "description": "hw-10",
+  "main": "index.js",
+  "homepage": "https://Vitaliy-Karpenko529.github.io/goit-js-hw-13-image-finder",
+  "scripts": {
+    "dev": "parcel src/*.html",
+    "build": "parcel build src/*.html --public-url /goit-js-hw-13-image-finder/",
+    "deploy": "gh-pages -d dist",
+    "predeploy": "npm run build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Vitaliy-Karpenko529/goit-js-hw-13-image-finder.git"
+  },
+  "keywords": [],
+  "author": "Vitaliy Karpenko",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Vitaliy-Karpenko529//goit-js-hw-13-image-finder/issues"
+  },
+  "devDependencies": {},
+  "dependencies": {
+    "@pnotify/core": "^5.2.0",
+    "basiclightbox": "^5.0.4",
+    "gh-pages": "^3.2.3",
+    "parcel-bundler": "^1.12.5",
+    "parcel-plugin-handlebars-precompile": "^1.0.2",
+    "parcel-plugin-nuke-dist": "^1.0.1",
+    "posthtml-include": "^1.7.2",
+    "sass": "^1.43.4"
+  }
+}
