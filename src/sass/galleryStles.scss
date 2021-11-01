@@ -1,0 +1,39 @@
+body {
+  background-color: grey;
+  line-height: 1.5;
+  font-family: 'Playfair+Display';
+}
+
+.main-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  font-size: 25px;
+}
+
+.search-form {
+  margin-left: auto;
+  margin-right: auto;
+  display: flex;
+}
+
+.button-search {
+  margin-left: 25px;
+  border-radius: 10px;
+  border: 3px solid green;
+}
+
+input {
+  border-radius: 10px;
+  height: 45px;
+  border: 3px solid green;
+}
+
+.button {
+  border-radius: 10px;
+  width: 150px;
+  height: 45px;
+  border: 3px solid;
+  border: 3px solid green;
+}
